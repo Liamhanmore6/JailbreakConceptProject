@@ -5,7 +5,7 @@
 //  Created by Liam Hanmore on 10/04/2016.
 //  Copyright © 2016 Liam Hanmore. All rights reserved.
 //
-// https://github.com/Liamhanmore6/JailbreakConcept
+// https://github.com/Liamhanmore6/JailbreakConceptProject
 #import "ViewController.h"
 #import "SVProgressHUD.h"
 
