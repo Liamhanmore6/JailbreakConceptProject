@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2E9D281CBAB91E00184B3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E9D271CBAB91E00184B3B /* main.m */; };
+		0C2E9D2B1CBAB91E00184B3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E9D2A1CBAB91E00184B3B /* AppDelegate.m */; };
+		0C2E9D2E1CBAB91E00184B3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E9D2D1CBAB91E00184B3B /* ViewController.m */; };
+		0C2E9D311CBAB91E00184B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2E9D2F1CBAB91E00184B3B /* Main.storyboard */; };
+		0C2E9D331CBAB91E00184B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2E9D321CBAB91E00184B3B /* Assets.xcassets */; };
+		0C2E9D361CBAB91E00184B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2E9D341CBAB91E00184B3B /* LaunchScreen.storyboard */; };
+		0C2E9D411CBAB91F00184B3B /* JailbreakConceptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E9D401CBAB91F00184B3B /* JailbreakConceptTests.m */; };
+		0C2E9D4C1CBAB91F00184B3B /* JailbreakConceptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E9D4B1CBAB91F00184B3B /* JailbreakConceptUITests.m */; };
+		0CAECE411CBABD4E00C35551 /* pglogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CAECE401CBABD4E00C35551 /* pglogo@2x.png */; };
+		0CAECE451CBACA5B00C35551 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CAECE441CBACA5B00C35551 /* Button.png */; };
+		94DAD4004CB4AC1AFE7BBECD /* libPods-JailbreakConcept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF2BC1D0ABE24F6D1804402 /* libPods-JailbreakConcept.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C2E9D3D1CBAB91E00184B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C2E9D1B1CBAB91E00184B3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C2E9D221CBAB91E00184B3B;
+			remoteInfo = JailbreakConcept;
+		};
+		0C2E9D481CBAB91F00184B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C2E9D1B1CBAB91E00184B3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C2E9D221CBAB91E00184B3B;
+			remoteInfo = JailbreakConcept;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C2E9D231CBAB91E00184B3B /* JailbreakConcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JailbreakConcept.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2E9D271CBAB91E00184B3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C2E9D291CBAB91E00184B3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C2E9D2A1CBAB91E00184B3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C2E9D2C1CBAB91E00184B3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C2E9D2D1CBAB91E00184B3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C2E9D301CBAB91E00184B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C2E9D321CBAB91E00184B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C2E9D351CBAB91E00184B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C2E9D371CBAB91E00184B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2E9D3C1CBAB91E00184B3B /* JailbreakConceptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JailbreakConceptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2E9D401CBAB91F00184B3B /* JailbreakConceptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakConceptTests.m; sourceTree = "<group>"; };
+		0C2E9D421CBAB91F00184B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2E9D471CBAB91F00184B3B /* JailbreakConceptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JailbreakConceptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2E9D4B1CBAB91F00184B3B /* JailbreakConceptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakConceptUITests.m; sourceTree = "<group>"; };
+		0C2E9D4D1CBAB91F00184B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CAECE401CBABD4E00C35551 /* pglogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pglogo@2x.png"; sourceTree = "<group>"; };
+		0CAECE441CBACA5B00C35551 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		0DDC11298B8CD82FD572FC76 /* Pods-JailbreakConcept.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JailbreakConcept.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JailbreakConcept/Pods-JailbreakConcept.debug.xcconfig"; sourceTree = "<group>"; };
+		1CF2BC1D0ABE24F6D1804402 /* libPods-JailbreakConcept.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JailbreakConcept.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36182E8172EC355DD69E19E3 /* Pods-JailbreakConcept.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JailbreakConcept.release.xcconfig"; path = "Pods/Target Support Files/Pods-JailbreakConcept/Pods-JailbreakConcept.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C2E9D201CBAB91E00184B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DAD4004CB4AC1AFE7BBECD /* libPods-JailbreakConcept.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2E9D391CBAB91E00184B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2E9D441CBAB91F00184B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079B812B1BD5EEB1A226F974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CF2BC1D0ABE24F6D1804402 /* libPods-JailbreakConcept.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C2E9D1A1CBAB91E00184B3B = {
+			isa = PBXGroup;
+			children = (
+				0C2E9D251CBAB91E00184B3B /* JailbreakConcept */,
+				0C2E9D3F1CBAB91F00184B3B /* JailbreakConceptTests */,
+				0C2E9D4A1CBAB91F00184B3B /* JailbreakConceptUITests */,
+				0C2E9D241CBAB91E00184B3B /* Products */,
+				C5B75EAA90FA99BD4197E5C8 /* Pods */,
+				079B812B1BD5EEB1A226F974 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C2E9D241CBAB91E00184B3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E9D231CBAB91E00184B3B /* JailbreakConcept.app */,
+				0C2E9D3C1CBAB91E00184B3B /* JailbreakConceptTests.xctest */,
+				0C2E9D471CBAB91F00184B3B /* JailbreakConceptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C2E9D251CBAB91E00184B3B /* JailbreakConcept */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E9D291CBAB91E00184B3B /* AppDelegate.h */,
+				0C2E9D2A1CBAB91E00184B3B /* AppDelegate.m */,
+				0C2E9D2C1CBAB91E00184B3B /* ViewController.h */,
+				0C2E9D2D1CBAB91E00184B3B /* ViewController.m */,
+				0C2E9D2F1CBAB91E00184B3B /* Main.storyboard */,
+				0C2E9D321CBAB91E00184B3B /* Assets.xcassets */,
+				0C2E9D341CBAB91E00184B3B /* LaunchScreen.storyboard */,
+				0C2E9D371CBAB91E00184B3B /* Info.plist */,
+				0C2E9D261CBAB91E00184B3B /* Supporting Files */,
+			);
+			path = JailbreakConcept;
+			sourceTree = "<group>";
+		};
+		0C2E9D261CBAB91E00184B3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CAECE441CBACA5B00C35551 /* Button.png */,
+				0CAECE401CBABD4E00C35551 /* pglogo@2x.png */,
+				0C2E9D271CBAB91E00184B3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C2E9D3F1CBAB91F00184B3B /* JailbreakConceptTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E9D401CBAB91F00184B3B /* JailbreakConceptTests.m */,
+				0C2E9D421CBAB91F00184B3B /* Info.plist */,
+			);
+			path = JailbreakConceptTests;
+			sourceTree = "<group>";
+		};
+		0C2E9D4A1CBAB91F00184B3B /* JailbreakConceptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E9D4B1CBAB91F00184B3B /* JailbreakConceptUITests.m */,
+				0C2E9D4D1CBAB91F00184B3B /* Info.plist */,
+			);
+			path = JailbreakConceptUITests;
+			sourceTree = "<group>";
+		};
+		C5B75EAA90FA99BD4197E5C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC11298B8CD82FD572FC76 /* Pods-JailbreakConcept.debug.xcconfig */,
+				36182E8172EC355DD69E19E3 /* Pods-JailbreakConcept.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C2E9D221CBAB91E00184B3B /* JailbreakConcept */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2E9D501CBAB91F00184B3B /* Build configuration list for PBXNativeTarget "JailbreakConcept" */;
+			buildPhases = (
+				D44EBD2FA6009B231C05A09D /* Check Pods Manifest.lock */,
+				0C2E9D1F1CBAB91E00184B3B /* Sources */,
+				0C2E9D201CBAB91E00184B3B /* Frameworks */,
+				0C2E9D211CBAB91E00184B3B /* Resources */,
+				82244CC87675BBA47FA347E2 /* Embed Pods Frameworks */,
+				EC21CB164C38D041E1C790C2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JailbreakConcept;
+			productName = JailbreakConcept;
+			productReference = 0C2E9D231CBAB91E00184B3B /* JailbreakConcept.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C2E9D3B1CBAB91E00184B3B /* JailbreakConceptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2E9D531CBAB91F00184B3B /* Build configuration list for PBXNativeTarget "JailbreakConceptTests" */;
+			buildPhases = (
+				0C2E9D381CBAB91E00184B3B /* Sources */,
+				0C2E9D391CBAB91E00184B3B /* Frameworks */,
+				0C2E9D3A1CBAB91E00184B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C2E9D3E1CBAB91E00184B3B /* PBXTargetDependency */,
+			);
+			name = JailbreakConceptTests;
+			productName = JailbreakConceptTests;
+			productReference = 0C2E9D3C1CBAB91E00184B3B /* JailbreakConceptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C2E9D461CBAB91F00184B3B /* JailbreakConceptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2E9D561CBAB91F00184B3B /* Build configuration list for PBXNativeTarget "JailbreakConceptUITests" */;
+			buildPhases = (
+				0C2E9D431CBAB91F00184B3B /* Sources */,
+				0C2E9D441CBAB91F00184B3B /* Frameworks */,
+				0C2E9D451CBAB91F00184B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C2E9D491CBAB91F00184B3B /* PBXTargetDependency */,
+			);
+			name = JailbreakConceptUITests;
+			productName = JailbreakConceptUITests;
+			productReference = 0C2E9D471CBAB91F00184B3B /* JailbreakConceptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C2E9D1B1CBAB91E00184B3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Liam Hanmore";
+				TargetAttributes = {
+					0C2E9D221CBAB91E00184B3B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = P7ZPAVM8DG;
+					};
+					0C2E9D3B1CBAB91E00184B3B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = P7ZPAVM8DG;
+						TestTargetID = 0C2E9D221CBAB91E00184B3B;
+					};
+					0C2E9D461CBAB91F00184B3B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = P7ZPAVM8DG;
+						TestTargetID = 0C2E9D221CBAB91E00184B3B;
+					};
+				};
+			};
+			buildConfigurationList = 0C2E9D1E1CBAB91E00184B3B /* Build configuration list for PBXProject "JailbreakConcept" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C2E9D1A1CBAB91E00184B3B;
+			productRefGroup = 0C2E9D241CBAB91E00184B3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C2E9D221CBAB91E00184B3B /* JailbreakConcept */,
+				0C2E9D3B1CBAB91E00184B3B /* JailbreakConceptTests */,
+				0C2E9D461CBAB91F00184B3B /* JailbreakConceptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C2E9D211CBAB91E00184B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAECE451CBACA5B00C35551 /* Button.png in Resources */,
+				0C2E9D361CBAB91E00184B3B /* LaunchScreen.storyboard in Resources */,
+				0C2E9D331CBAB91E00184B3B /* Assets.xcassets in Resources */,
+				0CAECE411CBABD4E00C35551 /* pglogo@2x.png in Resources */,
+				0C2E9D311CBAB91E00184B3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2E9D3A1CBAB91E00184B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2E9D451CBAB91F00184B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82244CC87675BBA47FA347E2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JailbreakConcept/Pods-JailbreakConcept-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D44EBD2FA6009B231C05A09D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC21CB164C38D041E1C790C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JailbreakConcept/Pods-JailbreakConcept-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C2E9D1F1CBAB91E00184B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2E9D2E1CBAB91E00184B3B /* ViewController.m in Sources */,
+				0C2E9D2B1CBAB91E00184B3B /* AppDelegate.m in Sources */,
+				0C2E9D281CBAB91E00184B3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2E9D381CBAB91E00184B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2E9D411CBAB91F00184B3B /* JailbreakConceptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2E9D431CBAB91F00184B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2E9D4C1CBAB91F00184B3B /* JailbreakConceptUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C2E9D3E1CBAB91E00184B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C2E9D221CBAB91E00184B3B /* JailbreakConcept */;
+			targetProxy = 0C2E9D3D1CBAB91E00184B3B /* PBXContainerItemProxy */;
+		};
+		0C2E9D491CBAB91F00184B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C2E9D221CBAB91E00184B3B /* JailbreakConcept */;
+			targetProxy = 0C2E9D481CBAB91F00184B3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C2E9D2F1CBAB91E00184B3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2E9D301CBAB91E00184B3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2E9D341CBAB91E00184B3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2E9D351CBAB91E00184B3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C2E9D4E1CBAB91F00184B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C2E9D4F1CBAB91F00184B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C2E9D511CBAB91F00184B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDC11298B8CD82FD572FC76 /* Pods-JailbreakConcept.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JailbreakConcept/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiamHanmore6.JailbreakConcept2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C2E9D521CBAB91F00184B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36182E8172EC355DD69E19E3 /* Pods-JailbreakConcept.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JailbreakConcept/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiamHanmore6.JailbreakConcept2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C2E9D541CBAB91F00184B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JailbreakConceptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiamHanmore6.JailbreakConceptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JailbreakConcept.app/JailbreakConcept";
+			};
+			name = Debug;
+		};
+		0C2E9D551CBAB91F00184B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JailbreakConceptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiamHanmore6.JailbreakConceptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JailbreakConcept.app/JailbreakConcept";
+			};
+			name = Release;
+		};
+		0C2E9D571CBAB91F00184B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JailbreakConceptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiamHanmore6.JailbreakConceptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JailbreakConcept;
+			};
+			name = Debug;
+		};
+		0C2E9D581CBAB91F00184B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JailbreakConceptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiamHanmore6.JailbreakConceptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JailbreakConcept;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C2E9D1E1CBAB91E00184B3B /* Build configuration list for PBXProject "JailbreakConcept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2E9D4E1CBAB91F00184B3B /* Debug */,
+				0C2E9D4F1CBAB91F00184B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C2E9D501CBAB91F00184B3B /* Build configuration list for PBXNativeTarget "JailbreakConcept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2E9D511CBAB91F00184B3B /* Debug */,
+				0C2E9D521CBAB91F00184B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C2E9D531CBAB91F00184B3B /* Build configuration list for PBXNativeTarget "JailbreakConceptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2E9D541CBAB91F00184B3B /* Debug */,
+				0C2E9D551CBAB91F00184B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C2E9D561CBAB91F00184B3B /* Build configuration list for PBXNativeTarget "JailbreakConceptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2E9D571CBAB91F00184B3B /* Debug */,
+				0C2E9D581CBAB91F00184B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C2E9D1B1CBAB91E00184B3B /* Project object */;
+}
